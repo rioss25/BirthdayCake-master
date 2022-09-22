@@ -108,11 +108,13 @@
                 android:text="BLOW OUT">
 
             </Button>
+
             <Button
                 android:id="@+id/button2"
-                android:layout_gravity="center"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:onClick="goodbye"
                 android:text="GOODBYE">
 
             </Button>
